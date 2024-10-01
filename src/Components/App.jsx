@@ -6,8 +6,23 @@ function App() {
 
   return (
     <>
+    <div className="px-5">
+      <div className="row">
+        <div className="menu col-lg-2 bg-primary">
 
-    <Navbar />
+          <p>aqui va el menu lateral</p>
+
+        </div>
+
+        <div className="col-lg-10 bg-secondary">
+
+          <Navbar />
+
+        </div>
+
+      </div>
+    </div>
+    
     
       <Routes>
       {/* <Route path="/" element={<Navbar />} /> */}
