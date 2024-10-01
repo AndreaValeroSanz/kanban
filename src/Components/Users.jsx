@@ -1,14 +1,15 @@
 function users() {
   return (
     <div>
-
-      <button type="button" className="btn ">
-        UserName
+{/* botón de usuario */}
+    <button type="button" className="btn d-flex align-items-center">
+    <span>UserName</span>
         <span className="px-3">
+            {/* icono de usuario */}
           <i className="bi bi-person"></i>
         </span>
       </button>
-      
+
     </div>
   );
 }
