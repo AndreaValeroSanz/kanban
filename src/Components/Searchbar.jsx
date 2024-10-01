@@ -1,7 +1,7 @@
 
 function Searchbar() {
     return (
-        <div class="container py-3">
+        <div class="container ">
 
             <div class="bg-light rounded-3 w-25 px-2">
               <i class="bi bi-search"></i>
