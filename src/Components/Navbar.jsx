@@ -1,22 +1,13 @@
 import { useState } from "react";
-
+import Searchbar from "./Searchbar";
 function Navbar() {
   return (
     <>
       <nav class="navbar">
-        <div class="container">
-          <div class="row justify-content-center">
+        <div className=" w-100 d-flex justify-content-between">
+          <Searchbar />
 
-              <div class="custom-search-container">
-                <i class="bi bi-search"></i>
-                <input
-                  type="text"
-                  class="custom-search-bar"
-                  placeholder="Search for anything..."
-                />
-
-            </div>
-          </div>
+          <p>holi</p>
         </div>
       </nav>
     </>
