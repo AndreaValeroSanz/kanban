@@ -14,7 +14,7 @@ function App() {
 
         </div>
 
-        <div className="col-lg-10 bg-secondary">
+        <div className="col-lg-10">
 
           <Navbar />
 
