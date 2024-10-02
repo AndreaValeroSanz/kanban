@@ -9,8 +9,22 @@
     --lightpink:#ED98B4 ;
     --black: #0E0E0E;
     --white: #FAFAFA;
+    --gris: #DBDBDB;
 }
 
 *{
     background-color: var(--white);
+}
+
+.bg-gray{
+    background-color: var(--gris)!important;
+}
+
+.menu{
+    height: 100vh;
+}
+
+.topbar{
+    padding-top: 2vh;
+    height: 10vh;
 }

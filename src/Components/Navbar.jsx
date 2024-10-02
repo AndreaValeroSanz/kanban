@@ -4,8 +4,8 @@ import Users from "./Users";
 function Navbar() {
   return (
     <>
-      <nav class="navbar">
-        <div className=" w-100 d-flex justify-content-between">
+      <nav class="navbar p-0 m-0">
+        <div className=" w-100 d-flex justify-content-between topbar">
           <Searchbar />
 
           <Users />
