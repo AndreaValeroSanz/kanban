@@ -6,10 +6,9 @@ function App() {
 
   return (
     <>
-    
+       {/* Rutas de componentes */}
       <Routes>
       <Route path="/" element={<Home />} />
-
       </Routes>
 
     </>
