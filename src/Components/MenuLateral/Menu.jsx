@@ -3,8 +3,8 @@ import GroupName from "./GroupName";
 
 function menu() {
     return (
-        <div className="menu">
-            <div className="topbar container">
+        <div className="border-right">
+            <div className="container">
             <GroupName />
 
             </div>

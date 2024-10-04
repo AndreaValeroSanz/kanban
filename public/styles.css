@@ -21,10 +21,11 @@
 }
 
 .menu{
-    height: 100vh;
+    height: 50vh;
 }
 
 .topbar{
     padding-top: 2vh;
-    height: 10vh;
+    height: 7vh;
+    border: 1px solid var(--black);
 }
