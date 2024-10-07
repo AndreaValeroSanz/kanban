@@ -7,16 +7,6 @@ import NavSettings from "./Nav_selectors/NavSettings";
 
 
 function menu() {
-<<<<<<< HEAD
-  return (
-    <div className="">
-        <NavHome/>
-        <NavTasks />
-        <NavMembers />
-        <NavSettings />
-    </div>
-  );
-=======
     return (
         <div className="border-right">
             <div className="container">
@@ -26,7 +16,6 @@ function menu() {
 
         </div>
     );
->>>>>>> 21d112cf805b2b6b8ce51361d8eee0dcc234a5a6
 }
 
 export default menu;
