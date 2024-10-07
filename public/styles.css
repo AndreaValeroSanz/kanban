@@ -1,30 +1,47 @@
-:root{
-    --blue: #2589BD;
-    --lightblue: #92C4DE;
-    --yellow:#F5BB00;
-    --lightyellow:#FADD80 ;
-    --green:#4DA167;
-    --lightgreen:#A6D0B3 ;
-    --pink:#DB3069 ;
-    --lightpink:#ED98B4 ;
-    --black: #0E0E0E;
-    --white: #FAFAFA;
-    --gris: #DBDBDB;
+:root {
+  --blue: #2589bd;
+  --lightblue: #92c4de;
+  --yellow: #f5bb00;
+  --lightyellow: #fadd80;
+  --green: #4da167;
+  --lightgreen: #a6d0b3;
+  --pink: #db3069;
+  --lightpink: #ed98b4;
+  --black: #0e0e0e;
+  --white: #fafafa;
+  --gris: #dbdbdb;
 }
 
-*{
-    background-color: var(--white);
+* {
+  background-color: var(--white);
 }
 
-.bg-gray{
-    background-color: var(--gris)!important;
+.bg-gray {
+  background-color: var(--gris) !important;
 }
 
-.menu{
-    height: 100vh;
+.menu {
+  height: 50vh;
 }
 
-.topbar{
-    padding-top: 2vh;
-    height: 10vh;
+.topbar {
+  padding-top: 2vh;
+  height: 7vh;
+  border-bottom: 1px solid var(--gris);
+}
+
+.BorderRight {
+  border-right: 1px solid var(--gris);
+}
+
+.NavItems {
+  display: flex;
+  gap: 16px;
+  text-align: baseline;
+  color: #787486;
+}
+
+.NavItems:hover {
+  color: var(--black);
+  fill: var(--black);
 }
