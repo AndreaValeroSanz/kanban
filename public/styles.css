@@ -27,12 +27,15 @@
 .topbar {
   padding-top: 2vh;
   height: 7vh;
-  border: 1px solid var(--black);
+  border-bottom: 1px solid var(--gris);
+}
+
+.BorderRight {
+  border-right: 1px solid var(--gris);
 }
 
 .NavItems {
   display: flex;
-  flex-direction: row;
   gap: 16px;
   text-align: baseline;
   color: #787486;
@@ -40,4 +43,5 @@
 
 .NavItems:hover {
   color: var(--black);
+  fill: var(--black);
 }

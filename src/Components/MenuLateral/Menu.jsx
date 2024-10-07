@@ -7,14 +7,11 @@ import NavSettings from "./Nav_selectors/NavSettings";
 
 function menu() {
   return (
-    <div className="border-right">
-      <div className="container">
-        <GroupName />
-        <NavHome />
+    <div className="">
+        <NavHome/>
         <NavTasks />
         <NavMembers />
         <NavSettings />
-      </div>
     </div>
   );
 }
