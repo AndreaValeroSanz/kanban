@@ -1,6 +1,7 @@
 import React from "react";
 import GroupName from "./GroupName";
 
+
 function menu() {
     return (
         <div className="border-right">
@@ -8,7 +9,6 @@ function menu() {
             <GroupName />
 
             </div>
-
 
         </div>
     );
