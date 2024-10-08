@@ -1,0 +1,33 @@
+.button-container {
+    position: relative;
+}
+
+.button-container i {
+    font-size: 12px;
+}
+
+.button-container li {
+    width: 100%;
+}
+.btn.boton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.boton::after {
+    content: "\F5D4";
+    font-family: bootstrap-icons!important;
+    display: block;
+    position: absolute;
+    right: 0;
+    opacity: .1;
+    transition: opacity 0.3s;
+    
+}
+
+.boton:hover::after {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
