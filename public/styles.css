@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'GlacialIndifference';
+    src: url('/Fuentes/Glacial.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 :root {
   --blue: #2589bd;
   --lightblue: #92c4de;
@@ -14,6 +21,7 @@
 
 * {
   background-color: var(--white);
+  font-family: 'GlacialIndifference', sans-serif;
 }
 
 .bg-gray {
