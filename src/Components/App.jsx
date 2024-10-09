@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import Home from './Home.jsx';
 
+/* App genera la página haciendo llamadas a los componentes */
 function App() {
 
   return (
