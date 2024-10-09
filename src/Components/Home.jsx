@@ -34,8 +34,14 @@ function Home() {
         </div>
 
         {/* Contenedor principal (Dashboard)*/}
-        <div className="py-3 col-lg-10 bg-danger">
+        <div className="py-3 col-lg-10">
           <Dashboard />
+
+          <div className="row pt-5 bg-danger">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla fuga dolores atque earum libero, voluptate dignissimos alias qui sed. Dolorum ut magni ex quia libero ullam, et corrupti laborum quidem dolore error tempore nulla consequatur unde neque soluta consequuntur, ducimus quisquam rerum temporibus quibusdam beatae fuga est? Ut cumque enim eos unde labore nobis exercitationem hic, quidem ad dicta aliquam praesentium doloremque pariatur laudantium quod porro ex perferendis. Omnis quisquam nostrum, esse eaque deleniti nihil. Odit error corrupti consequuntur omnis libero pariatur iure numquam repellat sit impedit ad vel tenetur, animi consequatur voluptatum perferendis expedita itaque totam. Dolores, delectus ullam.</p>
+          </div>
+
+
         </div>
 
 
