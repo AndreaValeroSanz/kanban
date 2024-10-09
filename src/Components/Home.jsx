@@ -33,6 +33,12 @@ function Home() {
           <MyProjects />
         </div>
 
+        {/* Contenedor principal (Dashboard)*/}
+        <div className="py-3 col-lg-10 bg-danger">
+          <Dashboard />
+        </div>
+
+
       </div>
 
     </div>
