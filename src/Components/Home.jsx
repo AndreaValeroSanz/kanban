@@ -3,6 +3,7 @@ import Navbar from "./BarraNavegacion/Navbar.jsx";
 import Menu from "./MenuLateral/Menu.jsx";
 import GroupName from "./MenuLateral/GroupName.jsx";
 import MyProjects from "./MenuLateral/MyProjects/MyProjects.jsx";
+import Dashboard from "./Dashboard/Dashboard.jsx";
 function Home() {
   return (
     <div className="px-5 ">
@@ -22,6 +23,13 @@ function Home() {
         <div className="py-3 col-lg-2 BorderRight">
           <Menu />
           <MyProjects />
+        </div>
+
+        <div className="col-lg-10 bg-danger">
+          <div className="row">
+            <Dashboard />
+          </div>
+          
         </div>
       </div>
     </div>
